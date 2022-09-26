@@ -199,3 +199,16 @@ textarea{
     color: orange;
     transition-duration: 0.4;
 }
+
+#submit{
+    
+    background-color: blue;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+#submit:hover{
+    background-color: rgb(247, 59, 2);
+    color: white;
+    
+}
