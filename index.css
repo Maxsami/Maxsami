@@ -1,0 +1,355 @@
+.nav{
+    /* background-color: rgb(162, 62, 255); */
+    overflow: hidden;
+    border-bottom-right-radius:80px ;
+    /* box-shadow: 0 4px 8px 0 rgb(24, 23, 23); */
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(0, 30, 255);
+
+    
+}
+
+.nav li{
+    float: left;
+    list-style: none;
+    margin: 0px 10px;
+    padding-bottom: 24px;
+    padding-top: 8PX;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color:  rgb(0, 30, 255);
+    color:rgb(255, 255, 255) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition-duration: 0.4;
+    box-shadow: 0 4px 8px 0 rgb(0, 30, 255);
+}
+
+.container{
+    /* border: 2px solid rgb(162, 62, 255); */
+}
+
+
+
+.banner-about img{
+    width: 120px;
+    border-radius: 50px;
+ 
+}
+
+.banner-about{
+    border-top: 3px solid rgb(0, 30, 255) ;
+    border-bottom: 3px solid rgb(0, 30, 255) ;
+  text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    background-color:rgb(0, 0, 0);
+    margin-top: 5px;
+    border-radius: 10px;
+    color: white;
+      margin-left: 80px;
+      margin-right: 80px;
+    /* display: inline-block; */
+    
+    
+    
+}
+
+
+.banner-about:hover{
+    /* background-color: rgb(162, 62, 255); */
+    /* box-shadow: 0 8px 8px 0 rgb(0, 30, 255); */
+   border-top: 3px solid rgb(0, 30, 255) ;
+   transition-duration: 0.4;
+   
+   
+  
+    
+
+}
+
+
+.side-iconbar a{
+    display: block;
+    margin: 3px 0px;
+    /* width: fit-content; */
+    padding: 16px;
+    text-align: center;
+    border-radius: 10PX;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   
+  
+}
+
+.side-iconbar{
+    /* top: 50%; */
+    position: fixed;
+}
+
+.facebook{
+background: #000000;
+color: white;
+}
+
+
+.twitter{
+background-color: black;
+color: white;
+}
+.google{
+background-color: black;
+color: white;
+}
+.linkedin{
+background-color: black;
+color: white;
+
+}
+
+.youtube{
+background-color: black;
+color: white;
+}
+
+.github{
+    color: white;
+    background-color: black;
+    font-size: 22px;
+}
+
+body{
+    background-color: #161b22;
+}
+
+.side-iconbar a:hover{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(0, 30, 255);
+    transition-duration: 0.7;
+    box-shadow: 0 4px 8px 0 rgb(0, 30, 255);
+    
+}
+
+.blogs{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 60px;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgb(0, 30, 255);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+
+
+.blogs img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+.blogs:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 81, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#blog-title{
+    text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.ads img{ 
+    width: 500px;
+   margin: auto;
+   display: block;
+   margin-top: 10px;
+}
+
+
+.ads img:hover{
+    box-shadow: 0 4px 8px 0 rgb(0, 72, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* #ab-text:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 98, 0);
+} */
+
+.skills{
+background-color: rgba(14, 14, 14, 0.461);
+margin-top: 40px;
+margin-left: 60px;
+color: white;
+border: 2px solid rgb(0, 30, 255);
+border-radius: 10px;
+padding: 10px 20px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#login{
+    float: right;
+    margin: 0px 20px;
+    /* background-color: rgb(0, 30, 255);
+    padding: 8px 8px;
+    border-radius: 10px */
+  
+}
+
+.footer a{
+    margin: 7px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    background-color: ;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer p{
+    display: inline-block
+}
+
+
+.footer a:hover{
+    color: orange;
+    transition-duration: 0.4;
+}
+
+#css{
+    font-size: 100px;
+    background-color: blue;
+    border-radius: 20px;
+    float: right;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+#html{
+    font-size: 100px;
+    background-color: red;
+    border-radius: 20px;
+    float:right;
+    display: inline-block; 
+    margin-top: 0px;
+}
+
+
+/* .skills h3{
+    display: inline-block;
+} */
+
+.skills{
+    padding: 50px 30px;
+}
+
+.m{
+    margin: 4px;
+    margin-top: 0px;
+}
+
+
+
+.phones{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 60px;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgb(0, 30, 255);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+
+
+
+.phones img{
+    width: 350px;
+    border-radius: 10px;
+}
+
+.phones:hover{
+    box-shadow: 0 4px 8px 0 rgb(255, 81, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#phone-title{
+    text-align: center;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#ama{
+    background-color:rgb(255, 94, 0);
+     font-size:20px;
+     padding: 8px 20px;
+     border-radius: 5px;
+     transition-duration: 0.4s;
+     border: white;
+     
+ 
+   }
+ 
+   a:link {
+     text-decoration: none;
+     color: white;
+   }
+ #ama:hover{
+     background-color: rgb(0, 30, 255);
+   }
+ #ama a:active{
+   color: white;
+ }
+ 
+ #ama a:visited{
+   color: white;
+   background-color:rgb(255, 94, 0);
+     font-size:20px;
+     padding: 8px 20px;
+     border-radius: 5px;
+     transition-duration: 0.4s;
+     
+ }
+
+ button{
+    margin-left: 100px;
+    margin-bottom: 5px;
+ }
+
+ #cart{
+    padding: 0px 2px;
+    font-size: 20px;
+ }
+
+ #game{
+    font-size: 20px;
+    padding:;
+ }
